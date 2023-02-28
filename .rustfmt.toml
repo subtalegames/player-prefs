@@ -1,0 +1,14 @@
+# Required for options that are unstable
+unstable_features = true
+
+# Reorganizes imports into three groups: std, external, and crate
+group_imports = "StdExternalCrate"
+
+# Merges imports from the same crate
+imports_granularity = "Crate"
+
+# Forces the style of items inside an imports block
+imports_layout = "HorizontalVertical"
+
+# Ensures that imports (and extern crate statements) are sorted alphabetically
+reorder_imports = true

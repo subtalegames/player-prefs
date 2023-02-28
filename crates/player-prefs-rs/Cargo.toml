@@ -1,0 +1,17 @@
+[package]
+name = "player-prefs-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luke Carr <luke@subtale.com>"]
+description = "Rust implementation of Unity's PlayerPrefs API"
+documentation = "https://github.com/subtalegames/player-prefs/blob/main/README.md"
+homepage = "https://github.com/subtalegames/player-prefs"
+repository = "https://github.com/subtalegames/player-prefs"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+directories-next = { version = "2.0.0", optional = true }
+
+[features]
+bool = []
